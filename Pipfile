@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+openapi = "*"
+openai = "==0.27.2"
+scrapy = "*"
+beautifulsoup4 = "*"
+googlesearch-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
